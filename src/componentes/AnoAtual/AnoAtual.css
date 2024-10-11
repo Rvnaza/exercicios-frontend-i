@@ -1,0 +1,10 @@
+/*Crie um componente chamado 'AnoAtual' que mostra o texto:
+"2024" em uma <div> com o fundo vermelho, justificado à direita na cor amarelo.
+*/
+
+.anoAtual{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(255, 0, 0);
+    color: yellow;
+}

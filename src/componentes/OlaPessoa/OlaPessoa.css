@@ -1,0 +1,9 @@
+/*8. Crie um componente chamado 'OlaPessoa' que aceita uma prop chamada 'nome'
+e mostra o texto:
+"Olá, [nome]!" em uma <div> com o fundo laranja, texto centralizado na cor branca.*/
+.olaPessoa{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 102, 0);
+    color: white;
+}

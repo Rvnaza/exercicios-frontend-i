@@ -1,0 +1,11 @@
+/*7. Crie um componente chamado 'DataCompletaAtual' que mostra o texto:
+"15/03/2024 20:30" em uma <div> com o fundo marrom, texto centralizado na cor
+branca.*/
+
+.dataCompletaAtual{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    align-items: center;
+};

@@ -1,0 +1,11 @@
+/*9. Crie um componente chamado 'ListaProdutos' que aceita uma prop chamada
+'produtos' e deve ser uma lista de nomes de produtos.
+O componente deve listar os itens em tela em uma <ul> com o fundo roxo e a letra
+amarela.*/
+
+.listaProdutos {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    color: yellow;
+};
