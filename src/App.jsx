@@ -7,6 +7,25 @@ import HoraAtual from './componentes/HoraAtual/HoraAtual';
 import MinutoAtual from './componentes/MinutoAtual/MinutoAtual';
 import DataCompletaAtual from './componentes/DataCompletaAtual/DataCompletaAtual';
 import OlaPessoa from './componentes/OlaPessoa/OlaPessoa';
+import ListaProtudos from './componentes/ListaProdutos/ListaProdutos';
+
+const produtos = [
+  {
+    nome: "Smartphone Samsung",
+  },
+  {
+    nome: "Smartphone Samsung",
+  },
+  {
+    nome: "Smartphone Samsung",
+  },
+  {
+    nome: "Smartphone Samsung",
+  },
+  {
+    nome: "Smartphone Samsung",
+  },
+];
 
 function App() {
   return (
@@ -83,7 +102,7 @@ function App() {
           amarela.
 
       </span>
-      <OlaPessoa />
+      <ListaProtudos produtos={produtos} />
       <hr />
 
     </>
